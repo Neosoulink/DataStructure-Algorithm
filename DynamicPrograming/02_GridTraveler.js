@@ -5,7 +5,7 @@
  * can be traversed only moving right or down,
  * from top-left to bottom-right of the array. m,n to 1,1.
  *
- *  Warning: Not optimized. Complexity n+m. o(2^n+m) time & o(n+m) space
+ * ! **Warning:** Not optimized. Complexity n+m. o(2^n+m) time & o(n+m) space
  *
  * @param {number} col Number of columns
  * @param {number} row Number of rows
