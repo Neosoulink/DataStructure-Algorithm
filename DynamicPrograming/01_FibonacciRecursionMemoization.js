@@ -3,6 +3,8 @@
  *
  * Optimization of 00_FibonacciRecursion.js
  *
+ * Complexity of 2n, simplified by n. o(n) time & o(n) space
+ *
  * @param {number} n
  * @param {object} memo
  * @returns {number} return the fibonacci number
