@@ -1,3 +1,11 @@
+/**
+ * Simple fibonacci recursion
+ *
+ * * **Warning:** bad practice! Time complexity **0(n²)**
+ *
+ * @param {number} n
+ * @returns {number} return the fibonacci number
+ */
 function fib(n) {
 	if (n <= 2) return 1;
 
