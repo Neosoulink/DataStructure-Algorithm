@@ -1,7 +1,7 @@
 /**
  * Simple fibonacci recursion
  *
- * ! **Warning:** bad practice! Time complexity **0(n²)**
+ * ! **Warning:** bad practice! Complexity n². Brute force: **0(n²) time** & **0(n²) space**
  *
  * @param {number} n
  * @returns {number} return the fibonacci number
