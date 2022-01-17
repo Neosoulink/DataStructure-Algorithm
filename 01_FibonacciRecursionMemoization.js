@@ -4,6 +4,7 @@
  * Optimization of 00_FibonacciRecursion.js
  *
  * @param {number} n
+ * @param {object} memo
  * @returns {number} return the fibonacci number
  */
 function fib(n, memo = {}) {
