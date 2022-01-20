@@ -1,6 +1,6 @@
 # Memoization Recipe
 
-To efficiency solve a recursive problem using Memoization, Alvin (from CoderByte) propose to follow these steps
+To efficiency solve a recursive problem using Memoization, Alvin Zablan (from CoderByte | Google) propose to follow these steps
 
 ## 1. Make it work
 
