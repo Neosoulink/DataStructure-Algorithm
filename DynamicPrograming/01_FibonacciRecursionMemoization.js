@@ -6,7 +6,7 @@
  * ? Complexity of 2n, simplified by n. o(n) time & o(n) space
  *
  * @param {number} n
- * @param {object} memo
+ * @param {{[name: string]: number}} memo
  * @returns {number} return the fibonacci number
  */
 function fib(n, memo = {}) {
