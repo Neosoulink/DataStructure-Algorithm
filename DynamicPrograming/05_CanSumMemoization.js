@@ -20,7 +20,7 @@ function canSum(targetSum, numbers, memo = {}) {
 	for (const num of numbers) {
 		const remainder = targetSum - num;
 
-		if (canSum(remainder, numbers)) {
+		if (canSum(remainder, numbers, memo)) {
 			memo[targetSum] = true;
 			return true;
 		}
