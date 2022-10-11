@@ -4,7 +4,7 @@
  *
  * Optimization of 04_CanSum.js
  *
- * ? Complexity of m * n. Brut force: o(m*n) time & o(m) space
+ * ? Complexity of m * n. Memoization: o(m*n) time & o(m) space
  *
  * @param {number} targetSum
  * @param {number[]} numbers
