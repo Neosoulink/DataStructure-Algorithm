@@ -17,7 +17,6 @@ const bestSum = (targetNum = 0, numbers = [], memo = {}) => {
 				combination.length < shortestCombination.length
 			) {
 				shortestCombination = combination;
-				memo[targetNum] = shortestCombination;
 			}
 		}
 	}
