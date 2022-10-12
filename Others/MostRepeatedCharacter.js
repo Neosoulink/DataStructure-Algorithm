@@ -2,10 +2,12 @@ const findTheMostAlpha = (s) => {
 	counter = {};
 	if (typeof s === "string") {
 		s.split("").map((val) => {
-			if (typeof counter[val] === "number") {
-				counter[val] += 1;
-			} else {
-				counter[val] = 1;
+			if (new RegExp(/[a-z]/, "i").test(val)) {
+				if (typeof counter[val] === "number") {
+					counter[val] += 1;
+				} else {
+					counter[val] = 1;
+				}
 			}
 		});
 	}
@@ -20,4 +22,4 @@ const findTheMostAlpha = (s) => {
 	return res;
 };
 
-console.log(findTheMostAlpha("4545DDDCaddddd8998"));
+console.log(findTheMostAlpha("4545555555DDDDDDDDDCaddddd8998"));
