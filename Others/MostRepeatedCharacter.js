@@ -10,11 +10,11 @@ const findTheMostAlpha = (s) => {
 		});
 	}
 
-	let res = { val: 0, key: null };
+	let res = { count: 0, key: null };
 	Object.keys(counter).map((key, i) => {
-		if (counter[key] > res.val) {
+		if (counter[key] > res.count) {
 			res.key = key;
-			res.val = counter[key];
+			res.count = counter[key];
 		}
 	});
 	return res;
