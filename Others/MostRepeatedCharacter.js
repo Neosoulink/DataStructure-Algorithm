@@ -17,7 +17,7 @@ const findTheMostAlpha = (s) => {
 			res.val = counter[key];
 		}
 	});
-	return res.key;
+	return res;
 };
 
 console.log(findTheMostAlpha("4545DDDCaddddd8998"));
